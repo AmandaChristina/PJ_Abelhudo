@@ -6,6 +6,7 @@ TagManager:
   tags:
   - conversa
   - player
+  - conversar
   layers:
   - Default
   - TransparentFX
