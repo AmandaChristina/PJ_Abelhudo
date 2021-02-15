@@ -18,6 +18,9 @@ public class Noticias : MonoBehaviour
     public Text pontoHabilidadeResultado;
     public Text resultadoNoticiaText;
 
+    public GameObject noticiaImparcialButton;
+    public GameObject noticiaSensacionalistaButton;
+
 
 
     void Start(){
@@ -26,9 +29,8 @@ public class Noticias : MonoBehaviour
 
     void Update(){
         print (PlayerControl.dinheiro);
-
         if(noticiaConcluida) painelNoticias.SetActive(false);
-
+        noticiasLiberadas();
         
 
     }
@@ -40,7 +42,6 @@ public class Noticias : MonoBehaviour
         resultadosManager();
         noticiaConcluida  = true;
     }
-
     public void noticiaSensacionalista(){
         PlayerControl.habilidadeTest(dificuldadeNoticia, habilidadeEscrita2);
         testResultadoNoticia = PlayerControl.testResultado;        
@@ -48,7 +49,6 @@ public class Noticias : MonoBehaviour
         resultadosManager();
         noticiaConcluida  = true;
     }
-
     public void noticiaImparcial(){
         PlayerControl.habilidadeTest(dificuldadeNoticia, habilidadeEscrita);
         testResultadoNoticia = PlayerControl.testResultado;
@@ -56,7 +56,6 @@ public class Noticias : MonoBehaviour
         resultadosManager();
         noticiaConcluida  = true;
     }
-
     void textoResultManager(){
             repercussaoResultado.text = PlayerControl.repercussao.ToString();
             dinheiroResultado.text = PlayerControl.dinheiro.ToString();
@@ -65,7 +64,6 @@ public class Noticias : MonoBehaviour
             
 
     }
-
     void resultadosManager(){
         if(testResultadoNoticia){
             PlayerControl.repercussao += 35;
@@ -81,5 +79,11 @@ public class Noticias : MonoBehaviour
         }
                     textoResultManager();
 
+    }
+    public void noticiasLiberadas(){
+        if(GerenciaConversa.sucessoNoticias){
+            noticiaImparcialButton.SetActive(true);
+            noticiaSensacionalistaButton.SetActive(true);
+        }
     }
 }

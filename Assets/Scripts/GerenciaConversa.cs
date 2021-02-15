@@ -26,11 +26,16 @@ public class GerenciaConversa : MonoBehaviour
     }
 
     void finalMissao(){
-//gerenciaScript.pj.contSucesso > gerenciaScript.pj.contFracasso && gerenciaScript.pj.contSucesso >= 2 && 
-        if(dialogoDados.sucessoMissao == true && PlayerControl.contSucesso > PlayerControl.contFracasso && PlayerControl.contSucesso >=2){ 
+            if(PlayerControl.contSucesso > PlayerControl.contFracasso && PlayerControl.contSucesso >=2) { 
                 print("Missao Sucesso");
                 sucessoNoticias = true;
-                SceneManager.LoadScene(1);
             }
-}
+    }
+
+    public void carregarEscritorio(){
+
+        SceneManager.LoadScene(1);
+
+    }
+
 }

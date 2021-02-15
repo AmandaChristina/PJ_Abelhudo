@@ -220,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &49163894
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1373,6 +1373,8 @@ MonoBehaviour:
   dinheiroResultado: {fileID: 1827030932}
   pontoHabilidadeResultado: {fileID: 1992765405}
   resultadoNoticiaText: {fileID: 1134577379}
+  noticiaImparcialButton: {fileID: 1558909459}
+  noticiaSensacionalistaButton: {fileID: 49163893}
 --- !u!4 &1399454309
 Transform:
   m_ObjectHideFlags: 0
@@ -1483,7 +1485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1558909460
 RectTransform:
   m_ObjectHideFlags: 0
