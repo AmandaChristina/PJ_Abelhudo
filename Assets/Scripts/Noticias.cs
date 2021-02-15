@@ -16,6 +16,7 @@ public class Noticias : MonoBehaviour
     public Text repercussaoResultado;
     public Text dinheiroResultado;
     public Text pontoHabilidadeResultado;
+    public Text resultadoNoticiaText;
 
 
 
@@ -28,35 +29,41 @@ public class Noticias : MonoBehaviour
 
         if(noticiaConcluida) painelNoticias.SetActive(false);
 
-        resultadosManager();
+        
 
     }
 
     public void noticiaFakeNews(){
         PlayerControl.habilidadeTest(dificuldadeNoticia, 0);
         testResultadoNoticia = PlayerControl.testResultado;
-        noticiaConcluida  = true;
         print(PlayerControl.testResultado);
+        resultadosManager();
+        noticiaConcluida  = true;
     }
 
     public void noticiaSensacionalista(){
         PlayerControl.habilidadeTest(dificuldadeNoticia, habilidadeEscrita2);
-        noticiaConcluida  = true;
         testResultadoNoticia = PlayerControl.testResultado;        
         print(PlayerControl.testResultado);
+        resultadosManager();
+        noticiaConcluida  = true;
     }
 
     public void noticiaImparcial(){
         PlayerControl.habilidadeTest(dificuldadeNoticia, habilidadeEscrita);
         testResultadoNoticia = PlayerControl.testResultado;
-        noticiaConcluida  = true;
         print(PlayerControl.testResultado);
+        resultadosManager();
+        noticiaConcluida  = true;
     }
 
     void textoResultManager(){
             repercussaoResultado.text = PlayerControl.repercussao.ToString();
             dinheiroResultado.text = PlayerControl.dinheiro.ToString();
             pontoHabilidadeResultado.text = PlayerControl.pontoDeHabilidade.ToString();
+
+            
+
     }
 
     void resultadosManager(){
@@ -64,10 +71,13 @@ public class Noticias : MonoBehaviour
             PlayerControl.repercussao += 35;
             PlayerControl.dinheiro+= 500;
             PlayerControl.pontoDeHabilidade +=1;
+
+            resultadoNoticiaText.text = "Sucesso!!";
         }
         else{
 
             PlayerControl.repercussao -= 10;
+            resultadoNoticiaText.text = "Foi péssimo!!";
         }
                     textoResultManager();
 
