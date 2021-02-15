@@ -9,7 +9,7 @@ public class GerenciaConversa : MonoBehaviour
     public Text textoUI;
     public PersonagemInteragivel dialogoDados;
     public PlayerControl pj;
-    public bool sucessoNoticias;
+    static public bool sucessoNoticias;
      
      void Update(){
         if(dialogoDados != null ){
@@ -30,6 +30,7 @@ public class GerenciaConversa : MonoBehaviour
         if(dialogoDados.sucessoMissao == true && pj.contSucesso > pj.contFracasso && pj.contSucesso >=2){ 
                 print("Missao Sucesso");
                 sucessoNoticias = true;
+                SceneManager.LoadScene(1);
             }
 }
 }
