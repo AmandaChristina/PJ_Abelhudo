@@ -15,7 +15,7 @@ public class PlayerControl : MonoBehaviour
     static public int imparcialista;
 
     public float speed;
-    static public int dificuldade;
+    static public int dificuldade = 1;
     static public int contSucesso;
     static public int contFracasso;
     static public bool testResultado;
