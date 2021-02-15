@@ -31,9 +31,9 @@ public class Selecao : MonoBehaviour
                 
                 if(hit.transform.gameObject.tag == "conversar"){
                     gerenciaScript.dialogoDados = hit.transform.GetComponent<PersonagemInteragivel>();
-                    gerenciaScript.pj.contFracasso = 0;
-                    gerenciaScript.pj.contSucesso = 0;
-                    gerenciaScript.pj.testResultado = true;
+                    PlayerControl.contFracasso = 0;
+                    PlayerControl.contSucesso = 0;
+                    PlayerControl.testResultado = true;
                     balao.SetActive(true);
                 }
 

@@ -14,12 +14,12 @@ public class GerenciaConversa : MonoBehaviour
      void Update(){
         if(dialogoDados != null ){
 
-            if(pj.testResultado == true){
-                textoUI.text = dialogoDados.frasesSucesso[pj.contSucesso] + " (" + pj.testResultado +")";
+            if(PlayerControl.testResultado == true){
+                textoUI.text = dialogoDados.frasesSucesso[PlayerControl.contSucesso] + " (" + PlayerControl.testResultado +")";
             }
 
-            else if(pj.testResultado == false){
-                textoUI.text = dialogoDados.frasesFracasso[pj.contFracasso] + " (" + pj.testResultado +")";
+            else if(PlayerControl.testResultado == false){
+                textoUI.text = dialogoDados.frasesFracasso[PlayerControl.contFracasso] + " (" + PlayerControl.testResultado +")";
             }
             finalMissao();
         }        
@@ -27,7 +27,7 @@ public class GerenciaConversa : MonoBehaviour
 
     void finalMissao(){
 //gerenciaScript.pj.contSucesso > gerenciaScript.pj.contFracasso && gerenciaScript.pj.contSucesso >= 2 && 
-        if(dialogoDados.sucessoMissao == true && pj.contSucesso > pj.contFracasso && pj.contSucesso >=2){ 
+        if(dialogoDados.sucessoMissao == true && PlayerControl.contSucesso > PlayerControl.contFracasso && PlayerControl.contSucesso >=2){ 
                 print("Missao Sucesso");
                 sucessoNoticias = true;
                 SceneManager.LoadScene(1);

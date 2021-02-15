@@ -7,6 +7,8 @@ public class PlayerControl : MonoBehaviour
     Rigidbody2D rb;
  
     static public double dinheiro = 1000;
+    static public int repercussao = 15;
+    static public int pontoDeHabilidade;
     static public int habilidade;
     static public int habilidade2;
     static public int sensacionalista;
@@ -63,6 +65,7 @@ public class PlayerControl : MonoBehaviour
             contFracasso++;
             return testResultado = false;
         }
+
     }
 }
 
