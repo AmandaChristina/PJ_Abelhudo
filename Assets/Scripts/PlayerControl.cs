@@ -31,8 +31,11 @@ public class PlayerControl : MonoBehaviour
         float yMove = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         Vector3 pos = new Vector3(xMove, yMove, 0);
         transform.position += pos;
+        transform.position = new Vector2(
+           Mathf.Clamp(transform.position.x, -37.629f, 37.629f),
+           Mathf.Clamp(transform.position.y, -20.26f, 63.365f));
 
-        if(Input.GetKeyDown(KeyCode.F)){
+        if (Input.GetKeyDown(KeyCode.F)){
             dinheiro -= 20 * dificuldade;
             print(dinheiro);
         }
