@@ -1240,7 +1240,7 @@ MonoBehaviour:
       ele est\xE1 com a agenda apertada at\xE9 o proximo m\xEAs."
     - Segundo o prefeito, o evento teve que ser cancelado pois a verba foi repassada
       para o hospital.
-    - "Isso \xE9 tudo, hora de voltar ao trabalho."
+    - 
     - "Isso \xE9 tudo, hora de voltar ao trabalho."
     respostas:
     - "Oi boa tarde, voc\xEA \xE9 a cris\xE1lia, a secret\xE1ria do vereador?"
@@ -1254,7 +1254,8 @@ MonoBehaviour:
       para saber o motivo.
     - "Entendi... ent\xE3o voc\xEA sabe o porque do evento ter sido cancelado?"
     - 'Para o hospital? '
-    - Ok.
+    - De nada... (Pagar a conta).
+    - "*L\xE1 se vai o meu sapato novo*"
     - Ok.
 --- !u!65 &178596943
 BoxCollider:
