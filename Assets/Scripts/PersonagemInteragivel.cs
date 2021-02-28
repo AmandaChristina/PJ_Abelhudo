@@ -5,8 +5,10 @@ using UnityEngine;
 public class PersonagemInteragivel : MonoBehaviour
 {
     public int id;
-    public string[] frasesSucesso;
-    public string[] frasesFracasso; 
-    public bool sucessoMissao;
-    
+    public bool interagiu = false;
+    public Dialogos dialogo;
+
+    public void TriggerDialogo() {
+        FindObjectOfType<DialogosControle>().ComecaDialogo(dialogo);
+    } 
 }

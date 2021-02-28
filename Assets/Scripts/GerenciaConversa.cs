@@ -10,19 +10,22 @@ public class GerenciaConversa : MonoBehaviour
     public PersonagemInteragivel dialogoDados;
     public PlayerControl pj;
     static public bool sucessoNoticias;
+
      
      void Update(){
-        if(dialogoDados != null ){
+
+        //textoUI.text = dialogoDados.dialogo.frases[];
+        /*if(dialogoDados != null ){
 
             if(PlayerControl.testResultado == true){
                 textoUI.text = dialogoDados.frasesSucesso[PlayerControl.contSucesso] + " (" + PlayerControl.testResultado +")";
             }
 
-            else if(PlayerControl.testResultado == false){
+            /*else if(PlayerControl.testResultado == false){
                 textoUI.text = dialogoDados.frasesFracasso[PlayerControl.contFracasso] + " (" + PlayerControl.testResultado +")";
             }
             finalMissao();
-        }        
+        } */   
     }
 
     void finalMissao(){
