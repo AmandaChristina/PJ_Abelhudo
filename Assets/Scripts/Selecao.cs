@@ -44,9 +44,9 @@ public class Selecao : MonoBehaviour
                     interage.TriggerDialogo();
                 }
 
-                else{              
+               /* else{              
                     balao.SetActive(false);
-                }
+                }*/
             }
 
         }
