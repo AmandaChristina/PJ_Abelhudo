@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: 5b5708562458ccb46bcff366932108ed
+guid: d4b0b1168d9bea148a0dd92f92c0ed32
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3798309002616590292
-    second: itens_cenario_0
+      213: 2080371392418255540
+    second: Largata_ Idle_0
   - first:
-      213: -7997645057148497955
-    second: itens_cenario_1
+      213: 1161936277285014135
+    second: Largata_ Idle_1
   - first:
-      213: 8955509400662730774
-    second: itens_cenario_2
+      213: 864291378353413217
+    second: Largata_ Idle_2
   - first:
-      213: -900389151518486514
-    second: itens_cenario_3
+      213: 7279570396495438484
+    second: Largata_ Idle_3
   - first:
-      213: -1487433093093941294
-    second: itens_cenario_4
+      213: 4700774540642995590
+    second: Largata_ Idle_4
   - first:
-      213: 5585868877513743353
-    second: itens_cenario_5
+      213: -418131998573526509
+    second: Largata_ Idle_5
   - first:
-      213: 4495842471453220132
-    second: itens_cenario_6
+      213: 8171207117903566447
+    second: Largata_ Idle_6
   - first:
-      213: -3721269014395880312
-    second: itens_cenario_7
-  - first:
-      213: -4465402297443742166
-    second: itens_cenario_8
-  - first:
-      213: 1893867380413338471
-    second: itens_cenario_9
-  - first:
-      213: 6452567232993193261
-    second: itens_cenario_10
-  - first:
-      213: 887891784007246334
-    second: itens_cenario_11
+      213: -7864423805774741976
+    second: Largata_ Idle_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -83,7 +71,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -147,232 +135,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: itens_cenario_0
+      name: Largata_ Idle_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 882
-        width: 277
-        height: 148
+        x: 0
+        y: 2
+        width: 187
+        height: 263
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c20bedf1612b94bc0800000000000000
-      internalID: -3798309002616590292
+      spriteID: 4b299f552c6fedc10800000000000000
+      internalID: 2080371392418255540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_1
+      name: Largata_ Idle_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 663
-        width: 278
-        height: 149
+        x: 219
+        y: 1
+        width: 189
+        height: 260
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf4101a138a20190800000000000000
-      internalID: -7997645057148497955
+      spriteID: 77a863353e6002010800000000000000
+      internalID: 1161936277285014135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_2
+      name: Largata_ Idle_2
       rect:
         serializedVersion: 2
-        x: 327
-        y: 56
-        width: 509
-        height: 729
+        x: 436
+        y: 1
+        width: 181
+        height: 266
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6186c210a5c584c70800000000000000
-      internalID: 8955509400662730774
+      spriteID: 16c103ded649efb00800000000000000
+      internalID: 864291378353413217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_3
+      name: Largata_ Idle_3
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 56
-        width: 561
-        height: 725
+        x: 652
+        y: 0
+        width: 187
+        height: 263
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00102056dc2183f0800000000000000
-      internalID: -900389151518486514
+      spriteID: 4926f80f4ba360560800000000000000
+      internalID: 7279570396495438484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_4
+      name: Largata_ Idle_4
       rect:
         serializedVersion: 2
-        x: 25
-        y: 443
-        width: 277
-        height: 149
+        x: 869
+        y: 1
+        width: 187
+        height: 263
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2df99fa8b739b5be0800000000000000
-      internalID: -1487433093093941294
+      spriteID: 68dc938f9818c3140800000000000000
+      internalID: 4700774540642995590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_5
+      name: Largata_ Idle_5
       rect:
         serializedVersion: 2
-        x: 35
-        y: 226
-        width: 278
-        height: 148
+        x: 1086
+        y: 4
+        width: 189
+        height: 260
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fbdd1e162ef48d40800000000000000
-      internalID: 5585868877513743353
+      spriteID: 3120dc3a92f723af0800000000000000
+      internalID: -418131998573526509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_6
+      name: Largata_ Idle_6
       rect:
         serializedVersion: 2
-        x: 897
-        y: 193
-        width: 77
-        height: 63
+        x: 1303
+        y: 2
+        width: 181
+        height: 266
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42d551568e0746e30800000000000000
-      internalID: 4495842471453220132
+      spriteID: f6619c0b495f56170800000000000000
+      internalID: 8171207117903566447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_7
+      name: Largata_ Idle_7
       rect:
         serializedVersion: 2
-        x: 1076
-        y: 194
-        width: 85
-        height: 71
+        x: 1519
+        y: 1
+        width: 187
+        height: 263
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88cf34b2c856b5cc0800000000000000
-      internalID: -3721269014395880312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: itens_cenario_8
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 33
-        width: 277
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2e07a9e444b702c0800000000000000
-      internalID: -4465402297443742166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: itens_cenario_10
-      rect:
-        serializedVersion: 2
-        x: 899
-        y: 55
-        width: 75
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 0, z: 0, w: 1}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2d62e316bf1c8950800000000000000
-      internalID: 6452567232993193261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: itens_cenario_11
-      rect:
-        serializedVersion: 2
-        x: 1078
-        y: 48
-        width: 83
-        height: 116
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef16db09fdc625c00800000000000000
-      internalID: 887891784007246334
+      spriteID: 82ebba55734fbd290800000000000000
+      internalID: -7864423805774741976
       vertices: []
       indices: 
       edges: []
@@ -380,7 +305,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e660a72504b993e4c9af37eac511c8fd
     internalID: 0
     vertices: []
     indices: 

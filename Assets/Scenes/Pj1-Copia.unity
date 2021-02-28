@@ -8703,7 +8703,6 @@ GameObject:
   - component: {fileID: 593661000}
   - component: {fileID: 593661002}
   - component: {fileID: 593661003}
-  - component: {fileID: 593661004}
   m_Layer: 0
   m_Name: Borbolata
   m_TagString: conversar
@@ -8749,7 +8748,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: af0a49d2de6c9944ba62b6d4f6c5f1e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8770,7 +8769,7 @@ Transform:
   m_GameObject: {fileID: 593660999}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -19.5, y: 1.2760005, z: -0.24}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5484116, y: 0.54052, z: 0.54052}
   m_Children: []
   m_Father: {fileID: 310640531}
   m_RootOrder: 2
@@ -8806,25 +8805,6 @@ MonoBehaviour:
     nome: 
     frases: []
     respostas: []
---- !u!95 &593661004
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593660999}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 069ca406d0d23a2458c927779f48821b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &604110490
 GameObject:
   m_ObjectHideFlags: 0
@@ -18063,7 +18043,6 @@ GameObject:
   - component: {fileID: 1155885311}
   - component: {fileID: 1155885313}
   - component: {fileID: 1155885314}
-  - component: {fileID: 1155885315}
   m_Layer: 0
   m_Name: Formigao
   m_TagString: conversar
@@ -18109,7 +18088,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5738112967e56324093a3458f55a2539, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18174,25 +18153,6 @@ MonoBehaviour:
     - Beleza sim(conversa dois)
     - flw(conversa tres)
     - ok obrigado.
---- !u!95 &1155885315
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155885310}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 44988585a78cdac42a057fd5eb246962, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1156125110
 GameObject:
   m_ObjectHideFlags: 0
@@ -26894,7 +26854,6 @@ GameObject:
   - component: {fileID: 1754859500}
   - component: {fileID: 1754859502}
   - component: {fileID: 1754859503}
-  - component: {fileID: 1754859504}
   m_Layer: 0
   m_Name: Largatao
   m_TagString: conversar
@@ -26940,7 +26899,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ef61ce6fb52927941a098d2269d71f94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -26961,7 +26920,7 @@ Transform:
   m_GameObject: {fileID: 1754859499}
   m_LocalRotation: {x: 0.00026721065, y: 0.002508083, z: 0.014841721, w: 0.9998867}
   m_LocalPosition: {x: -29.13, y: -1.21, z: -0.26}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.81197, y: 0.81197006, z: 0.81196994}
   m_Children: []
   m_Father: {fileID: 310640531}
   m_RootOrder: 1
@@ -26997,25 +26956,6 @@ MonoBehaviour:
     nome: 
     frases: []
     respostas: []
---- !u!95 &1754859504
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754859499}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d2aae3535c7af6e49b4035e588fd32f8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1758598952
 GameObject:
   m_ObjectHideFlags: 0
@@ -27028,7 +26968,6 @@ GameObject:
   - component: {fileID: 1758598953}
   - component: {fileID: 1758598955}
   - component: {fileID: 1758598956}
-  - component: {fileID: 1758598957}
   m_Layer: 0
   m_Name: Besourao
   m_TagString: conversar
@@ -27074,7 +27013,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: adf9c2af617899044a8fecabb25b1455, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27095,7 +27034,7 @@ Transform:
   m_GameObject: {fileID: 1758598952}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -14.45, y: 1.0920005, z: -0.436}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.77243, y: 0.77243, z: 0.77243}
   m_Children: []
   m_Father: {fileID: 310640531}
   m_RootOrder: 3
@@ -27131,25 +27070,6 @@ MonoBehaviour:
     nome: 
     frases: []
     respostas: []
---- !u!95 &1758598957
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758598952}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 884a9a5b64ec1404aac666227feb1377, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1763829194
 GameObject:
   m_ObjectHideFlags: 0

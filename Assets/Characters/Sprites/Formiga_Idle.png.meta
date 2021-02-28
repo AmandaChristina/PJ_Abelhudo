@@ -1,43 +1,34 @@
 fileFormatVersion: 2
-guid: 5b5708562458ccb46bcff366932108ed
+guid: edd6c3c23f7e0094685485a0bad46b13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3798309002616590292
-    second: itens_cenario_0
+      213: 2698364836774507190
+    second: Formiga_Idle_0
   - first:
-      213: -7997645057148497955
-    second: itens_cenario_1
+      213: 1031108899363893895
+    second: Formiga_Idle_1
   - first:
-      213: 8955509400662730774
-    second: itens_cenario_2
+      213: 2655178165878854402
+    second: Formiga_Idle_2
   - first:
-      213: -900389151518486514
-    second: itens_cenario_3
+      213: 516235961480751767
+    second: Formiga_Idle_3
   - first:
-      213: -1487433093093941294
-    second: itens_cenario_4
+      213: -818863605824044125
+    second: Formiga_Idle_4
   - first:
-      213: 5585868877513743353
-    second: itens_cenario_5
+      213: -7216945948844902539
+    second: Formiga_Idle_5
   - first:
-      213: 4495842471453220132
-    second: itens_cenario_6
+      213: 760128562889679834
+    second: Formiga_Idle_6
   - first:
-      213: -3721269014395880312
-    second: itens_cenario_7
+      213: -1006803709456638422
+    second: Formiga_Idle_7
   - first:
-      213: -4465402297443742166
-    second: itens_cenario_8
-  - first:
-      213: 1893867380413338471
-    second: itens_cenario_9
-  - first:
-      213: 6452567232993193261
-    second: itens_cenario_10
-  - first:
-      213: 887891784007246334
-    second: itens_cenario_11
+      213: -4501377780944354268
+    second: Formiga_Idle_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -83,7 +74,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -147,232 +138,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: itens_cenario_0
+      name: Formiga_Idle_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 882
-        width: 277
-        height: 148
+        x: 0
+        y: 5
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c20bedf1612b94bc0800000000000000
-      internalID: -3798309002616590292
+      spriteID: 6b27952c584827520800000000000000
+      internalID: 2698364836774507190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_1
+      name: Formiga_Idle_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 663
-        width: 278
-        height: 149
+        x: 198
+        y: 2
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf4101a138a20190800000000000000
-      internalID: -7997645057148497955
+      spriteID: 7823457b41c3f4e00800000000000000
+      internalID: 1031108899363893895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_2
+      name: Formiga_Idle_2
       rect:
         serializedVersion: 2
-        x: 327
-        y: 56
-        width: 509
-        height: 729
+        x: 397
+        y: 1
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6186c210a5c584c70800000000000000
-      internalID: 8955509400662730774
+      spriteID: 2031590697619d420800000000000000
+      internalID: 2655178165878854402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_3
+      name: Formiga_Idle_3
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 56
-        width: 561
-        height: 725
+        x: 597
+        y: 2
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00102056dc2183f0800000000000000
-      internalID: -900389151518486514
+      spriteID: 79aa7503fd90a2700800000000000000
+      internalID: 516235961480751767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_4
+      name: Formiga_Idle_4
       rect:
         serializedVersion: 2
-        x: 25
-        y: 443
-        width: 277
-        height: 149
+        x: 793
+        y: 2
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2df99fa8b739b5be0800000000000000
-      internalID: -1487433093093941294
+      spriteID: 3a3cc5793efc2a4f0800000000000000
+      internalID: -818863605824044125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_5
+      name: Formiga_Idle_5
       rect:
         serializedVersion: 2
-        x: 35
-        y: 226
-        width: 278
-        height: 148
+        x: 990
+        y: 3
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fbdd1e162ef48d40800000000000000
-      internalID: 5585868877513743353
+      spriteID: 577b7e385e148db90800000000000000
+      internalID: -7216945948844902539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_6
+      name: Formiga_Idle_6
       rect:
         serializedVersion: 2
-        x: 897
-        y: 193
-        width: 77
-        height: 63
+        x: 1190
+        y: 2
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42d551568e0746e30800000000000000
-      internalID: 4495842471453220132
+      spriteID: ad3eaae86e48c8a00800000000000000
+      internalID: 760128562889679834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_7
+      name: Formiga_Idle_7
       rect:
         serializedVersion: 2
-        x: 1076
-        y: 194
-        width: 85
-        height: 71
+        x: 1390
+        y: 0
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88cf34b2c856b5cc0800000000000000
-      internalID: -3721269014395880312
+      spriteID: a2e9a4b4c5d1702f0800000000000000
+      internalID: -1006803709456638422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: itens_cenario_8
+      name: Formiga_Idle_8
       rect:
         serializedVersion: 2
-        x: 25
-        y: 33
-        width: 277
-        height: 148
+        x: 1587
+        y: 0
+        width: 151
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e07a9e444b702c0800000000000000
-      internalID: -4465402297443742166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: itens_cenario_10
-      rect:
-        serializedVersion: 2
-        x: 899
-        y: 55
-        width: 75
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 0, z: 0, w: 1}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2d62e316bf1c8950800000000000000
-      internalID: 6452567232993193261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: itens_cenario_11
-      rect:
-        serializedVersion: 2
-        x: 1078
-        y: 48
-        width: 83
-        height: 116
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef16db09fdc625c00800000000000000
-      internalID: 887891784007246334
+      spriteID: 424c9fee1c4e781c0800000000000000
+      internalID: -4501377780944354268
       vertices: []
       indices: 
       edges: []
