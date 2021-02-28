@@ -34,6 +34,7 @@ public class Selecao : MonoBehaviour
                 if(hit.transform.gameObject.tag == "conversar"){
                     interage = hit.transform.GetComponent<PersonagemInteragivel>();
                     controle.npc = hit.transform.GetComponent<PersonagemInteragivel>();
+                    controle.boxCollider = hit.transform.GetComponent<BoxCollider>();
 
                   /*gerenciaScript.dialogoDados = hit.transform.GetComponent<PersonagemInteragivel>();
                   PlayerControl.contFracasso = 0;
@@ -44,15 +45,16 @@ public class Selecao : MonoBehaviour
                 }
 
                 else{              
-                    //balao.SetActive(false);
+                    balao.SetActive(false);
                 }
             }
 
         }
         #endregion
         if(Input.GetKeyDown(KeyCode.X)){
-                balao.SetActive(false);
-           
+            balao.SetActive(false);
+            controle.boxCollider.enabled = true;
+
         } 
 
 
