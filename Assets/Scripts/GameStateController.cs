@@ -7,32 +7,38 @@ public class GameStateController : MonoBehaviour
     public Mensagens jp;
     public static bool[] mensagemLidaController = new bool[3];
 
-    public static void controlaMensagens(int id){
+
+
+    public static void controlaMensagens(int id) {
         Debug.Log("Funsão chamada");
         for (int i = 0; i < 3; i++) {
             Debug.Log("Loop show");
-            if (i == id ) {
+            if (i == id) {
                 mensagemLidaController[i] = true;
-                Debug.Log("Valor atribuido" + id + " ="+ mensagemLidaController[i]);
+                Debug.Log("Valor atribuido" + id + " =" + mensagemLidaController[i]);
             }
-        
+
         }
-     
-    
-}
-    void Start(){
-        if (mensagemLidaController[0])
+    }
+
+
+
+    void Start()
+    {
+        for (int i = 0; i < mensagemLidaController.Length; i++)
         {
-            jp.MensagemDiGafanhoto();
-            Debug.Log(mensagemLidaController[0]);
+            if (mensagemLidaController[i])
+            {
+                jp.AtribuiMensagens(i);
+                Debug.Log(mensagemLidaController[0]);
+            }
+
         }
-      
-
     }
-
-    // Update is called once per frame
+        // Update is called once per frame
     void Update(){
-      
+        
     }
 
 }
+
