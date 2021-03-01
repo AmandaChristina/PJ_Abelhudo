@@ -6,7 +6,8 @@ public class RuaControle : MonoBehaviour
 {
     public GameStateController gsc;
     public GameObject borboleta;
-
+    public PlayerControl player;
+    public GameObject formiga;
 
     public static bool[] npcInteragidos = new bool[5];
     // Start is called before the first frame update
@@ -23,8 +24,15 @@ public class RuaControle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (npcInteragidos[0]) {
+        if (npcInteragidos[0])
+        {
             AtivaBorboleta();
+        }
+        else if (npcInteragidos[2]) {
+            PlayerControl.dinheiro -= 200;
+            GameStateController.progresso[0] = true;
+            formiga.SetActive(false);
+
         }
     }
     public static void salvaDialogo(int id)

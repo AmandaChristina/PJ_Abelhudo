@@ -6,6 +6,7 @@ public class GameStateController : MonoBehaviour
 {
     public Mensagens jp;
     public static bool[] mensagemLidaController = new bool[3];
+    public static bool[] progresso = new bool[3];
 
 
 
