@@ -586,7 +586,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 2872782761396183427, guid: 262b8a8d84aef524caa3184bfc75cd1e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 28455550}
   - component: {fileID: 28455549}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: CertoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -976,8 +976,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0, y: -89.6}
+  m_SizeDelta: {x: 435, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &28455549
 MonoBehaviour:
@@ -1922,7 +1922,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: -2517343544161683516, guid: 262b8a8d84aef524caa3184bfc75cd1e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4571,8 +4571,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 11.32, y: 10.309999, z: 0.19999999}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 7.8478246, y: 6.8658032, z: 0.19999999}
+  m_Center: {x: 0.19201106, y: 0.30975345, z: 0}
 --- !u!1 &243000559
 GameObject:
   m_ObjectHideFlags: 0
@@ -8709,7 +8709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &593661000
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8768,7 +8768,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593660999}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.5, y: 1.2760005, z: -0.24}
+  m_LocalPosition: {x: -29.18, y: -0.28, z: -0.24}
   m_LocalScale: {x: 0.5484116, y: 0.54052, z: 0.54052}
   m_Children: []
   m_Father: {fileID: 310640531}
@@ -8782,7 +8782,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593660999}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3, y: 5.7, z: 0.2}
@@ -8802,9 +8802,37 @@ MonoBehaviour:
   id: 2
   interagiu: 0
   dialogo:
-    nome: 
-    frases: []
-    respostas: []
+    nome: "Secret\xE1ria"
+    frases:
+    - '*Sussuro* Ai droga! E agora!? * Sussuro*'
+    - "Oque voc\xEA qu\xE9r!? Estou com um problema agora e n\xE3o tenho tempo pra
+      falar com voc\xEA!"
+    - "...ugh! ta bom, \xE9 o seguinte, estou em hor\xE1rio de almo\xE7o porem esqueci
+      minha carteira. e eu ja pedi o prato, n\xE3o da tempo de voltar la agora."
+    - "Voc\xEA!? *A borboleta te olha de cima a baixo* Tem certeza?"
+    - Tudo bem. Fica 200 reais!
+    - "200 reais, oque? voc\xEA acha que vou comer qualquer porcaria?"
+    - "Oque voc\xEA quer saber?"
+    - "O vereador... normalmente seria possivel, mas por causa das elei\xE7\xF5es
+      ele est\xE1 com a agenda apertada at\xE9 o proximo m\xEAs."
+    - Segundo o vereador, o evento teve que ser cancelado pois a verba foi repassada
+      para o hospital.
+    - "Enfim, eu tenhoque ir ent\xE3o obrigado pela comida abelinha, huhuhu."
+    - "Isso \xE9 tudo, hora de voltar ao trabalho.\r\n"
+    respostas:
+    - "Oi boa tarde, voc\xEA \xE9 a cris\xE1lia, a secret\xE1ria do vereador?"
+    - Que tipo de problema? Talvez eu possa ajudar.
+    - "Bom... se \xE9 s\xF3 um almo\xE7o eu posso pagar."
+    - "claro! Mas s\xF3 se voc\xEA responder algumas perguntas."
+    - Quanto!?
+    - "N\xE3o, n\xE3o, claro que n\xE3o... *caramba! duzentos conto* "
+    - Eu estava fazendo uma reportagem sobre o evento cultural que ia acontecer semana
+      que vem, mas fiquei sabendo que foi cancelado, gostaria de entrevistar o vereador
+      para saber o motivo.
+    - "Entendi... ent\xE3o voc\xEA sabe o porque do evento ter sido cancelado?"
+    - 'Para o hospital? '
+    - ... De nada... (Pagar a conta).
+    - Ok.
 --- !u!1 &604110490
 GameObject:
   m_ObjectHideFlags: 0
@@ -13255,7 +13283,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: -2517343544161683516, guid: 262b8a8d84aef524caa3184bfc75cd1e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13418,7 +13446,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 5179988841639547851, guid: 262b8a8d84aef524caa3184bfc75cd1e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13701,8 +13729,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.42, y: 8.9, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5.637266, y: 6.3811507, z: 0.19999999}
+  m_Center: {x: 0.033008885, y: -0.04342695, z: 0}
 --- !u!1 &895233921
 GameObject:
   m_ObjectHideFlags: 0
@@ -17133,6 +17161,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1091669406 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4695530427587363258, guid: 329d1b253e446f5428c4162b1c1643c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4695530427037305283}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc06764f787fa2d499f6226b81babfe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1101943498
 GameObject:
   m_ObjectHideFlags: 0
@@ -18088,7 +18128,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5738112967e56324093a3458f55a2539, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18108,7 +18148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155885310}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.55, y: 39.88, z: -0.26}
+  m_LocalPosition: {x: -23.41, y: 38.69, z: -0.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 310640531}
@@ -18122,10 +18162,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155885310}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8, y: 3.3, z: 0.2}
+  m_Size: {x: 1.8, y: 3.3, z: 0.19999999}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1155885314
 MonoBehaviour:
@@ -18145,14 +18185,21 @@ MonoBehaviour:
     nome: Formigasso
     frases:
     - Oi, tudo bom?
-    - "n\xE3o vai dar n\xE3o"
-    - "co\xE9 doido(conversa tres)"
-    - "n\xE3o da pra continuar conversando tenho que ir"
+    - "Olha mo\xE7o, n\xE3o vai dar n\xE3o!"
+    - "Ah! o por que eu n\xE3o sei, mas ele n\xE3o est\xE1 aceitando falar com ninguem
+      ultimamente. Tenta falar com a secret\xE1ria dele.\r"
+    - "Nesse hor\xE1rio... ela deve estar almo\xE7ando, v\xEA se voc\xEA encontra
+      ela no bar."
+    - "O que voc\xEA disse?"
+    - Foi bom o papo, mas tenho que ir.
     respostas:
-    - OI, eu gostaria de falar com o prefeito.
-    - Beleza sim(conversa dois)
-    - flw(conversa tres)
-    - ok obrigado.
+    - OI, eu gostaria de falar com o vereador.
+    - "U\xE9, por que n\xE3o!?"
+    - "Voc\xEA sabe onde eu posso achar ela?"
+    - "*Sussurro* Eu n\xE3o vou esperar ela sair do almo\xE7o n\xE3o, eu vou ir ver
+      ela agora! *Sussurro*"
+    - "Nada n\xE3o, muito obrigado viu! Boa tarde."
+    - Ok, obrigado.
 --- !u!1 &1156125110
 GameObject:
   m_ObjectHideFlags: 0
@@ -19436,7 +19483,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f101668828e143e439482608075a87a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -20597,6 +20644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1319786159}
   - component: {fileID: 1319786158}
+  - component: {fileID: 1319786160}
   m_Layer: 0
   m_Name: DialogosControle
   m_TagString: Untagged
@@ -20620,6 +20668,10 @@ MonoBehaviour:
   respostasUI: {fileID: 604769720}
   balao: {fileID: 931268970}
   npc: {fileID: 0}
+  boxCollider: {fileID: 0}
+  botao: {fileID: 983556641}
+  respostaBotao: {fileID: 1888494450}
+  certoBotao: {fileID: 28455547}
 --- !u!4 &1319786159
 Transform:
   m_ObjectHideFlags: 0
@@ -20634,6 +20686,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1319786160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319786157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3bcfe11bd9eed46a48ae1806f003e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gsc: {fileID: 1091669406}
+  borboleta: {fileID: 593660999}
+  player: {fileID: 1621290426}
+  formiga: {fileID: 1155885310}
 --- !u!1 &1320299055
 GameObject:
   m_ObjectHideFlags: 0
@@ -21015,7 +21083,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: aa8078fa034aeef4ebb1107e6e4e82c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21379,8 +21447,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.898618, y: 10.00971, z: 0.19999993}
-  m_Center: {x: 0.32029334, y: 0.3253726, z: 0}
+  m_Size: {x: 7.8986187, y: 8.045228, z: 0.19999993}
+  m_Center: {x: 0.32029355, y: 1.3076113, z: 0}
 --- !u!1 &1360066201
 GameObject:
   m_ObjectHideFlags: 0
@@ -21638,8 +21706,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.12, y: 6.91, z: 0.2}
-  m_Center: {x: 0, y: 0.00000023841858, z: 0}
+  m_Size: {x: 5.7642784, y: 3.6714337, z: 0.2}
+  m_Center: {x: -0.1444614, y: 1.36344, z: 0}
 --- !u!1 &1381646337
 GameObject:
   m_ObjectHideFlags: 0
@@ -22116,7 +22184,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f101668828e143e439482608075a87a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22310,7 +22378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1416521217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26270,7 +26338,7 @@ PrefabInstance:
     - target: {fileID: 4337551347330651723, guid: 88c6548c918375e4a8871cda2e6ae0f3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c6548c918375e4a8871cda2e6ae0f3, type: 3}
@@ -26919,7 +26987,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754859499}
   m_LocalRotation: {x: 0.00026721065, y: 0.002508083, z: 0.014841721, w: 0.9998867}
-  m_LocalPosition: {x: -29.13, y: -1.21, z: -0.26}
+  m_LocalPosition: {x: -20.42, y: 40.64, z: -0.28}
   m_LocalScale: {x: 0.81197, y: 0.81197006, z: 0.81196994}
   m_Children: []
   m_Father: {fileID: 310640531}
@@ -26933,7 +27001,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754859499}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.4, y: 3.3, z: 0.2}
@@ -27033,7 +27101,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758598952}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.45, y: 1.0920005, z: -0.436}
+  m_LocalPosition: {x: 15.84, y: -10.97, z: -0.436}
   m_LocalScale: {x: 0.77243, y: 0.77243, z: 0.77243}
   m_Children: []
   m_Father: {fileID: 310640531}
@@ -27047,7 +27115,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758598952}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3, y: 3.9, z: 0.2}
@@ -27067,9 +27135,13 @@ MonoBehaviour:
   id: 3
   interagiu: 0
   dialogo:
-    nome: 
-    frases: []
-    respostas: []
+    nome: Diretor
+    frases:
+    - ','
+    - 
+    respostas:
+    - 
+    - 
 --- !u!1 &1763829194
 GameObject:
   m_ObjectHideFlags: 0
@@ -27968,7 +28040,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f101668828e143e439482608075a87a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28103,8 +28175,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.42, y: 8.9, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5.8706045, y: 6.3639994, z: 0.2}
+  m_Center: {x: 0.23112705, y: -0.71669346, z: 0}
 --- !u!1 &1855179808
 GameObject:
   m_ObjectHideFlags: 0
@@ -28704,7 +28776,7 @@ GameObject:
   - component: {fileID: 1888494453}
   - component: {fileID: 1888494452}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: RespostaButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28727,8 +28799,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0, y: -57.6}
+  m_SizeDelta: {x: 435, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1888494452
 MonoBehaviour:
@@ -30763,7 +30835,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f101668828e143e439482608075a87a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31971,7 +32043,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: -2517343544161683516, guid: 262b8a8d84aef524caa3184bfc75cd1e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -32267,7 +32339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069521092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.6, y: 43.3, z: 0}
+  m_LocalPosition: {x: -21.9, y: 48.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 239728686}
@@ -32849,7 +32921,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 5179988841639547851, guid: 262b8a8d84aef524caa3184bfc75cd1e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -33414,7 +33486,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 668625ae704f2094a9beb091fd898a4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -34003,12 +34075,12 @@ PrefabInstance:
     - target: {fileID: 4584386223236748091, guid: e53b6c719b220854894ae3e358e6ee64,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.9
+      value: -18.9
       objectReference: {fileID: 0}
     - target: {fileID: 4584386223236748091, guid: e53b6c719b220854894ae3e358e6ee64,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.3
+      value: 36.2
       objectReference: {fileID: 0}
     - target: {fileID: 4584386223236748091, guid: e53b6c719b220854894ae3e358e6ee64,
         type: 3}

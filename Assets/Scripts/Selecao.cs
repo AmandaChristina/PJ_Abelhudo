@@ -35,7 +35,6 @@ public class Selecao : MonoBehaviour
                     interage = hit.transform.GetComponent<PersonagemInteragivel>();
                     controle.npc = hit.transform.GetComponent<PersonagemInteragivel>();
                     controle.boxCollider = hit.transform.GetComponent<BoxCollider>();
-
                   /*gerenciaScript.dialogoDados = hit.transform.GetComponent<PersonagemInteragivel>();
                   PlayerControl.contFracasso = 0;
                   PlayerControl.contSucesso = 0;

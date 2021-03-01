@@ -13,6 +13,9 @@ public class DialogosControle : MonoBehaviour
     public GameObject balao;
     public PersonagemInteragivel npc;
     public BoxCollider boxCollider;
+    public GameObject botao;
+    public GameObject respostaBotao;
+    public GameObject certoBotao;
 
     public void ComecaDialogo(Dialogos dialogo) {
         Debug.Log("Começa conversa com " + dialogo.nome);
@@ -43,8 +46,15 @@ public class DialogosControle : MonoBehaviour
             }
 
         }
+
         boxCollider.enabled = false;
-        DisplayNextSetence();       
+        if (npc.id == 3) {
+            botao.SetActive(false);
+            respostaBotao.SetActive(true);
+            certoBotao.SetActive(true);
+        } else {
+            DisplayNextSetence();
+        }
     }
 
     public void DisplayNextSetence() {
@@ -74,6 +84,8 @@ public class DialogosControle : MonoBehaviour
         boxCollider.enabled = true;
     }
 
+    public void DialogoCharada() { 
+    }
       void Start()
     {
         frases = new List<string>();
